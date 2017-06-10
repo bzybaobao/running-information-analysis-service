@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: running-information-analysis-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/running_information_analysis_service_db
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
